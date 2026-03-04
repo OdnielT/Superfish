@@ -11,13 +11,14 @@ function App() {
 
   return (
     <div>
-      <h1>Hello World!</h1>
+     <h1>Hello World!</h1>
       <User
-        name={userData.name}
-        age={userData.age}
-        phone={userData.phone}
-        email={userData.email}
-      />
+        // name={userData.name}
+        // age={userData.age}
+        // phone={userData.phone}
+        // email={userData.email}
+        {...userData}
+      /> 
     </div>
   );
 }
